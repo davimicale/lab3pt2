@@ -19,6 +19,8 @@ Neste relatório vamos demonstrar a construção de dois códigos para represent
 2- Criamos um arquivo dentro do repositório e atualizamos o código de cálculo de pi disponibilidzado pelo professor, este utiliza Pthreads.
 ![so_2](https://github.com/davimicale/lab3pt2/assets/62074503/013e6c7f-f32b-402c-8cc9-22aeaed7b017)
 ![so_3](https://github.com/davimicale/lab3pt2/assets/62074503/615d7797-1382-45d8-a50a-bbf9dc12c5ab)
+
+3- Logo em seguida, o compilamos e realizamos alguns testes. Em ambos os testes optamos por realizar 10 iterações, no primeiro utilizamos apenas um thread e no segundo 5 threads.
 ![so_4](https://github.com/davimicale/lab3pt2/assets/62074503/5ce8b0cd-8af9-4f8b-b4cf-6dc2d259da45)
 ![so_5](https://github.com/davimicale/lab3pt2/assets/62074503/e33b1bee-43c6-4ba6-a422-b24139e8fdbf)
 ![so_6](https://github.com/davimicale/lab3pt2/assets/62074503/4bab0aea-a61b-41a3-b040-a15830100d90)
