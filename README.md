@@ -10,6 +10,8 @@ Turma: 4N
 
 **Relatório de demonstrações**
 
+Neste relatório realizamos a construção de dois códigos para representar o cálculo pi. Ambos utulizam threads, porém um deles ocorre o uso de um mutex. Apresentaremos o passo a passo e as diferençãs entre eles a seguir.
+
 ![so_1](https://github.com/davimicale/lab3pt2/assets/62074503/dbfc8be4-6c10-4438-8a2c-343bcba40cad)
 ![so_2](https://github.com/davimicale/lab3pt2/assets/62074503/013e6c7f-f32b-402c-8cc9-22aeaed7b017)
 ![so_3](https://github.com/davimicale/lab3pt2/assets/62074503/615d7797-1382-45d8-a50a-bbf9dc12c5ab)
