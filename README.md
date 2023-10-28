@@ -36,7 +36,7 @@ Entretanto, o uso de várias threads pode resultar em concorrência. A concorrê
 ![so_6](https://github.com/davimicale/lab3pt2/assets/62074503/4bab0aea-a61b-41a3-b040-a15830100d90)
 ![so_7](https://github.com/davimicale/lab3pt2/assets/62074503/75176ff6-244a-4b2a-9479-6bca87315a29)
 
-5 - Em seguida, criamos um código que também realiza o cálculo de pi, mas ele utiliza o mutex. 
+5 - Em seguida, criamos um código que também realiza o cálculo de pi utilizando threads, mas ele utiliza o mutex para garantir que a variável global pi seja atualizada de forma segura pelas várias threads concorrentes. Sem o uso do mutex, haveria uma condição de corrida, o que poderia levar a resultados incorretos.
 ![so_8](https://github.com/davimicale/lab3pt2/assets/62074503/5152b5ff-f08b-41a5-9296-b5635256dfc2)
 ![so_9](https://github.com/davimicale/lab3pt2/assets/62074503/a766ea05-5bc4-421c-98e8-49b5f6208d8d)
 ![so_10](https://github.com/davimicale/lab3pt2/assets/62074503/f0845524-b37e-434b-9367-2b1732d3ad0c)
