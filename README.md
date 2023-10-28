@@ -40,6 +40,8 @@ Entretanto, o uso de várias threads pode resultar em concorrência. A concorrê
 ![so_8](https://github.com/davimicale/lab3pt2/assets/62074503/5152b5ff-f08b-41a5-9296-b5635256dfc2)
 ![so_9](https://github.com/davimicale/lab3pt2/assets/62074503/a766ea05-5bc4-421c-98e8-49b5f6208d8d)
 ![so_10](https://github.com/davimicale/lab3pt2/assets/62074503/f0845524-b37e-434b-9367-2b1732d3ad0c)
+
+5 - Aqui ocorre a demonstração em relação ao uso de apenas uma thread e várias threads. O uso de várias threads em um programa pode acelerar a execução de tarefas paralelizáveis e aproveitar melhor os processadores multi-core. No entanto, isso também pode introduzir problemas de concorrência, que é onde o mutex entra em jogo.
 ![so_11](https://github.com/davimicale/lab3pt2/assets/62074503/d070f866-20e9-47a0-a21b-2213c7cadeac)
 ![so_12](https://github.com/davimicale/lab3pt2/assets/62074503/3f8800c2-ff32-4f03-85f0-04256431b5e8)
 ![so_13](https://github.com/davimicale/lab3pt2/assets/62074503/be9c4860-fbe3-4802-a165-6ad85a7fbee3)
