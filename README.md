@@ -47,3 +47,11 @@ Entretanto, o uso de várias threads pode resultar em concorrência. A concorrê
 6 - Criamos um código compilado e acrescentamos no repositório.
 ![so_12](https://github.com/davimicale/lab3pt2/assets/62074503/3f8800c2-ff32-4f03-85f0-04256431b5e8)
 ![so_13](https://github.com/davimicale/lab3pt2/assets/62074503/be9c4860-fbe3-4802-a165-6ad85a7fbee3)
+
+Para realizar a demonstração da diferença entre o uso de threads com mutex e sem mutex nos códigos de cálculo de Pi. Utilizamos um exemplo de entrada para destacar a diferença: Com o uso de 4 threads e 1 milhão de iterações. Por se tratar de um número maior de iterações, preferimos compilar os códigos no VSCode.
+
+Primeiro cenário sem a utilização do mutex:
+
+Segundo cenário com a utilização do mutex:
+
+Em suma, comparando os resultados desses dois cenários, é possível observar que o cenário com mutex produzirá um resultado correto para o cálculo de Pi, enquanto o cenário sem mutex produzirá um resultado incorreto devido às condições de corrida.
