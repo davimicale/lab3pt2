@@ -10,7 +10,13 @@ Turma: 4N
 
 **Relatório de evidências**
 
-Neste relatório vamos demonstrar a construção de dois códigos para representar o cálculo pi. Ambos utulizam threads, porém um deles trabalha com o uso de um mutex. Apresentaremos o passo a passo e as diferençãs entre eles a seguir.
+Neste relatório vamos demonstrar a construção de dois códigos que utilizam múltiplas threads para calcular uma aproximação do valor de Pi. O cálculo é baseado na fórmula de Leibniz para Pi:
+
+Pi = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + ...)
+
+Os programas permitem que o usuário insira o número de threads que serão usadas para realizar os cálculos e o número de iterações que serão usadas para calcular Pi. A aproximação de Pi é calculada distribuindo o trabalho entre as threads, onde cada thread realiza uma parte das iterações e contribui para o resultado final.
+
+Ambos utulizam threads, porém um deles trabalha com o uso de um mutex. Apresentaremos o passo a passo e as diferençãs entre eles a seguir.
 
 1 - Criamos um repositório no GitHub e fizemos as parametrizações para que esse repositório se ligasse na nossa máquina AWS.
 
@@ -25,8 +31,12 @@ Neste relatório vamos demonstrar a construção de dois códigos para represent
 ![so_5](https://github.com/davimicale/lab3pt2/assets/62074503/e33b1bee-43c6-4ba6-a422-b24139e8fdbf)
 
 Entretanto, o uso de várias threads pode resultar em concorrência. A concorrência ocorre quando múltiplas threads estão tentando acessar, modificar ou atualizar recursos compartilhados simultaneamente.
+
+4 - Criamos um código compilado e acrescentamos no repositório.
 ![so_6](https://github.com/davimicale/lab3pt2/assets/62074503/4bab0aea-a61b-41a3-b040-a15830100d90)
 ![so_7](https://github.com/davimicale/lab3pt2/assets/62074503/75176ff6-244a-4b2a-9479-6bca87315a29)
+
+5 - Em seguida, criamos um código que também realiza o cálculo de pi, mas ele utiliza o mutex. 
 ![so_8](https://github.com/davimicale/lab3pt2/assets/62074503/5152b5ff-f08b-41a5-9296-b5635256dfc2)
 ![so_9](https://github.com/davimicale/lab3pt2/assets/62074503/a766ea05-5bc4-421c-98e8-49b5f6208d8d)
 ![so_10](https://github.com/davimicale/lab3pt2/assets/62074503/f0845524-b37e-434b-9367-2b1732d3ad0c)
