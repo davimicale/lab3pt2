@@ -20,9 +20,11 @@ Neste relatório vamos demonstrar a construção de dois códigos para represent
 ![so_2](https://github.com/davimicale/lab3pt2/assets/62074503/013e6c7f-f32b-402c-8cc9-22aeaed7b017)
 ![so_3](https://github.com/davimicale/lab3pt2/assets/62074503/615d7797-1382-45d8-a50a-bbf9dc12c5ab)
 
-3- Logo em seguida, o compilamos e realizamos alguns testes. Em ambos os testes optamos por realizar 10 iterações, no primeiro utilizamos apenas um thread e no segundo 5 threads.
+3- Logo em seguida, o compilamos e realizamos alguns testes. Em ambos os testes optamos por realizar 10 iterações, no primeiro utilizamos apenas uma thread e no segundo 5 threads. Dessa forma, podemos representar a vantagem da utilização de threads. A principal é que em um código que não utiliza threads, todo o cálculo é executado de forma sequencial em uma única thread. Isso significa que cada termo da série de Leibniz é calculado em ordem, um após o outro. Já um código que utiliza threads, o trabalho é dividido entre múltiplas threads, permitindo que várias partes da série de Leibniz sejam calculadas simultaneamente. Cada thread lida com uma parte do cálculo.
 ![so_4](https://github.com/davimicale/lab3pt2/assets/62074503/5ce8b0cd-8af9-4f8b-b4cf-6dc2d259da45)
 ![so_5](https://github.com/davimicale/lab3pt2/assets/62074503/e33b1bee-43c6-4ba6-a422-b24139e8fdbf)
+
+Entretanto, o uso de várias threads pode resultar em concorrência. A concorrência ocorre quando múltiplas threads estão tentando acessar, modificar ou atualizar recursos compartilhados simultaneamente.
 ![so_6](https://github.com/davimicale/lab3pt2/assets/62074503/4bab0aea-a61b-41a3-b040-a15830100d90)
 ![so_7](https://github.com/davimicale/lab3pt2/assets/62074503/75176ff6-244a-4b2a-9479-6bca87315a29)
 ![so_8](https://github.com/davimicale/lab3pt2/assets/62074503/5152b5ff-f08b-41a5-9296-b5635256dfc2)
