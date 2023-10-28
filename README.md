@@ -8,11 +8,15 @@ Nome: Yuri - TIA: 32230877
 
 Turma: 4N
 
-**Relatório de demonstrações**
+**Relatório de evidências**
 
-Neste relatório realizamos a construção de dois códigos para representar o cálculo pi. Ambos utulizam threads, porém um deles ocorre o uso de um mutex. Apresentaremos o passo a passo e as diferençãs entre eles a seguir.
+Neste relatório vamos demonstrar a construção de dois códigos para representar o cálculo pi. Ambos utulizam threads, porém um deles trabalha com o uso de um mutex. Apresentaremos o passo a passo e as diferençãs entre eles a seguir.
+
+1 - Criamos um repositório no GitHub e fizemos as parametrizações para que esse repositório se ligasse na nossa máquina AWS.
 
 ![so_1](https://github.com/davimicale/lab3pt2/assets/62074503/dbfc8be4-6c10-4438-8a2c-343bcba40cad)
+
+2- Criamos um arquivo dentro do repositório e atualizamos o código de cálculo de pi disponibilidzado pelo professor, este utiliza Pthreads.
 ![so_2](https://github.com/davimicale/lab3pt2/assets/62074503/013e6c7f-f32b-402c-8cc9-22aeaed7b017)
 ![so_3](https://github.com/davimicale/lab3pt2/assets/62074503/615d7797-1382-45d8-a50a-bbf9dc12c5ab)
 ![so_4](https://github.com/davimicale/lab3pt2/assets/62074503/5ce8b0cd-8af9-4f8b-b4cf-6dc2d259da45)
